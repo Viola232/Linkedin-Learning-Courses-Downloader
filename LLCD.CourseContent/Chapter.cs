@@ -11,7 +11,7 @@ namespace LLCD.CourseContent
         public string Title { get; set; }
 
         [JsonProperty("videos")]
-        public List<Video> Videos { get; set; }
+        public List<Video> Videos { set; }
 
         public override bool Equals(object obj)
         {
